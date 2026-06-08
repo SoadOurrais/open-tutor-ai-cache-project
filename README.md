@@ -1,6 +1,5 @@
 # OpenTutorAI — Semantic Cache Layer
 
-**PFE Master 2026 — Soad Ourrais**
 Optimisation du déploiement LLM : caching hybride + mémoire pédagogique
 
 ---
