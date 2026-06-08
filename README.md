@@ -189,5 +189,3 @@ OpenAI   : gpt-4o-mini · fallback cloud
 Embedding: all-MiniLM-L6-v2 · 384 dims · ~2ms/encodage
 ```
 ---
-
-*Résultats détaillés disponibles dans le draft paper scientifique
