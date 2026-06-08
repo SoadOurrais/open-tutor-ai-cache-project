@@ -188,7 +188,6 @@ Ollama   : Mistral 7B Q4_K_M · 4,1 Go RAM
 OpenAI   : gpt-4o-mini · fallback cloud
 Embedding: all-MiniLM-L6-v2 · 384 dims · ~2ms/encodage
 ```
-
 ---
 
-*Résultats détaillés disponibles dans le draft paper scientifique.*
+*Résultats détaillés disponibles dans le draft paper scientifique
