@@ -7,9 +7,6 @@ Architecture 3 couches :
   - Session Memory  : historique session courante (TTL 1h)
   - Working Memory  : niveau inscrit + concepts vus (TTL 24h)
   - Context Store   : profil long terme étudiant (TTL 30 jours)
-
-Note : le niveau est défini à l'inscription dans le support,
-pas détecté depuis les prompts.
 """
 import redis
 import json
