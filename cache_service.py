@@ -61,7 +61,7 @@ def normalize_prompt(text: str) -> str:
     return text
 
 def hash_key(value: str) -> str:
-    return hashlib.sha256(value.encode()).hexdigest()
+    return hashlib.md5(value.encode()).hexdigest()
 
 def cosine_similarity(vec1, vec2) -> float:
     a = np.array(vec1)
