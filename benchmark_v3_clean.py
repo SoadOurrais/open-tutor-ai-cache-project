@@ -41,7 +41,7 @@ REDIS_HOST         = os.getenv("REDIS_HOST", "localhost")
 REDIS_PORT         = int(os.getenv("REDIS_PORT", 6379))
 CACHE_TTL          = 3600        # 1 heure (tests)
 MAX_TOKENS         = 250
-SEMANTIC_THRESHOLD = 0.75
+SEMANTIC_THRESHOLD = 0.70
 CSV_FILE           = "benchmark_v3_results.csv"
 
 # Modèles locaux (via Ollama)
