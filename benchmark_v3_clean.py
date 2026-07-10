@@ -482,7 +482,7 @@ def analyze_results():
         TotalCost    =("Cost_USD",     "sum"),
         AvgQuality   =("QualityScore", lambda x: x[x > 0].mean()),
         HitRate      =("CacheHit",     "mean"),
-        AvgSemSim    =("SemanticSimilarity", "mean"),
+        AvgSemSim    =("SemanticSimilarity", lambda x: x[x > 0].mean() if (x > 0).any() else 0.0),  # ← moyenne sur hits réels uniquement,
     ).round(4).reset_index()
     summary.to_csv(summary_file, index=False)
     print(f"\n📊  Résumé exporté → {summary_file}")
